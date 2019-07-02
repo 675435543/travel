@@ -21,10 +21,10 @@ export default {
       },
       swiperList: [{
         id: '0001',
-        imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/5a613f91d1e95a8442fa128957565be8.jpg_750x200_7ad50d73.jpg'
+        imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/87a224d0349d94a11e97f31aa1aba4f5.jpg_750x200_1f78af87.jpg'
       }, {
         id: '0002',
-        imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/f31e841aa64b60e5f5e8b14b8ba92825.jpg_750x200_0baeb58b.jpg'
+        imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/fec63fd018410720a081d0a651831e55.jpg_750x200_8fc4c0d3.jpg'
       }]
     }
   }
