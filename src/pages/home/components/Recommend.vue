@@ -2,7 +2,7 @@
   <div>
     <div class="title">热销推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList"
+      <li class="item border-bottom" v-for="item of list"
         :key="item.id">
         <img class="item-img" :src="item.imgUrl"/>
         <div class="item-info">
@@ -18,25 +18,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1504/47/4730a0c01664b63d.water.jpg_200x200_d7f52253.jpg',
-        title: '武汉海昌极地海洋公园',
-        desc: '浪漫的海洋主题乐园,带上您的家人和孩子，尽情玩耍吧'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1504/47/4730a0c01664b63d.water.jpg_200x200_d7f52253.jpg',
-        title: '武汉海昌极地海洋公园',
-        desc: '浪漫的海洋主题乐园,带上您的家人和孩子，尽情玩耍吧'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1504/47/4730a0c01664b63d.water.jpg_200x200_d7f52253.jpg',
-        title: '武汉海昌极地海洋公园',
-        desc: '浪漫的海洋主题乐园,带上您的家人和孩子，尽情玩耍吧'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
